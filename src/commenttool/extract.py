@@ -23,7 +23,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from tree_sitter_languages import get_parser
+from tree_sitter_language_pack import get_parser
 
 from .languages import LangConfig, config_for_path
 from .models import AttachmentKind, CodeContext, Comment, CommentStyle

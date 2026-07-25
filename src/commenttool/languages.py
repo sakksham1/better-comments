@@ -6,8 +6,12 @@ line-comment delimiters differ too. This module is the single place that
 knows about those differences, so extract.py and rewrite/apply.py stay
 language-agnostic.
 
-Uses `tree_sitter_languages`, which ships prebuilt grammars for ~40 languages
-so we don't need to vendor/compile grammars ourselves.
+Uses `tree_sitter_language_pack` (the maintained successor to the now-defunct
+`tree_sitter_languages`), which ships 300+ grammars behind one API and
+supports current Python (3.10-3.14). Parsers are fetched on first use per
+language and cached locally, so we don't need to vendor/compile grammars
+ourselves -- the tradeoff is that the very first parse of a given language
+needs network access.
 """
 from __future__ import annotations
 
@@ -16,7 +20,7 @@ from dataclasses import dataclass, field
 
 @dataclass(frozen=True)
 class LangConfig:
-    ts_name: str                       # name tree_sitter_languages.get_parser() expects
+    ts_name: str                       # name tree_sitter_language_pack.get_parser() expects
     comment_node_types: frozenset[str]  # tree-sitter node type(s) that represent comments
     line_prefixes: tuple[str, ...] = field(default_factory=tuple)   # e.g. ("#",)
     block_delims: tuple[str, str] | None = None                     # e.g. ("/*", "*/")

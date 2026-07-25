@@ -62,6 +62,10 @@ Design invariants worth preserving as you extend this:
   is intentionally over-inclusive — it exists to cut cost, not to be the
   final word. The LLM step can (and should) `skip: true` things the
   heuristic flagged.
+- **tree-sitter-language-pack fetches parsers on first use.** Each language's
+  parser downloads from the network the first time you scan a file of that
+  type, then caches locally. First run on a polyglot repo needs
+  connectivity; every run after is offline.
 
 ## Not yet built (see original design doc)
 

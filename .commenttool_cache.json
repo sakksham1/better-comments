@@ -1,0 +1,74 @@
+{
+  "src\\commenttool\\__init__.py": {
+    "flag_count": 0,
+    "hash": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+  },
+  "src\\commenttool\\cache.py": {
+    "flag_count": 0,
+    "hash": "46e0f5cafb3b4b2140d3b78d0083d2d7ba9acc36aa7e48b290b4952aaf8dbe00"
+  },
+  "src\\commenttool\\cli.py": {
+    "flag_count": 0,
+    "hash": "e6e7602a4fba0d9b59dbc9388af61482a9a5fddf97d8be84dd845be3a03645b7"
+  },
+  "src\\commenttool\\config.py": {
+    "flag_count": 0,
+    "hash": "927904b0087bdd69e3e816883ee6171f91651a9b91e0a7178fc3443e3c08ff6e"
+  },
+  "src\\commenttool\\diffing.py": {
+    "flag_count": 0,
+    "hash": "e446b1164b2e362bb03735fb24201da631c145f261c110f1b7c5d1efb7bb6d8a"
+  },
+  "src\\commenttool\\extract.py": {
+    "flag_count": 0,
+    "hash": "362ac037fff545c310f2b59af29d57bf80e602e957393279cbe885ced83f695e"
+  },
+  "src\\commenttool\\filters\\__init__.py": {
+    "flag_count": 0,
+    "hash": "b563a1facef14f48e94bf7dff5b694391c8eca73a1e13716479099914516a309"
+  },
+  "src\\commenttool\\filters\\heuristics.py": {
+    "flag_count": 0,
+    "hash": "0c65573f4b7c7bc7f1b5bca6cdbc9158498099925f69355d5a7a04827df820b4"
+  },
+  "src\\commenttool\\languages.py": {
+    "flag_count": 0,
+    "hash": "08022062ce4f7b696d5f2eb93238e73f4baa3bc6433e6d095f83a8f707b853b2"
+  },
+  "src\\commenttool\\models.py": {
+    "flag_count": 0,
+    "hash": "cc32684fd4ee3d98e718fa8e2cbe4777c3e4619cbcb334d2badf21e6bb3bab6f"
+  },
+  "src\\commenttool\\repo.py": {
+    "flag_count": 0,
+    "hash": "49b9348e514cb3b411f76e371c844f3ad12fbea1e995592c99dd80e9b06d577e"
+  },
+  "src\\commenttool\\rewrite\\__init__.py": {
+    "flag_count": 0,
+    "hash": "ff67d652006dd4bb0237e99226faddcbaff04cadf8d8817a94087f94fbcb4594"
+  },
+  "src\\commenttool\\rewrite\\apply.py": {
+    "flag_count": 0,
+    "hash": "b22dce22230fe37d96a976e5ad3ef956e49b96ae19f6f0545d7e17c9b6c31b9d"
+  },
+  "src\\commenttool\\rewrite\\llm.py": {
+    "flag_count": 0,
+    "hash": "811cb22fe4e9e7f858f5c2cd7c9c7df9a2c6ae32e5959b4b48a39fc8dd1b5894"
+  },
+  "tests\\__init__.py": {
+    "flag_count": 0,
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "tests\\test_apply.py": {
+    "flag_count": 0,
+    "hash": "2d75326c2aefa137e3faa9c7993add6af08cf6353cdae396c725aeef66a3f2a0"
+  },
+  "tests\\test_extract.py": {
+    "flag_count": 0,
+    "hash": "8baefbbb7a27766e59af30f8c73cb5dc5d53873345c895d036095cc95966caac"
+  },
+  "tests\\test_heuristics.py": {
+    "flag_count": 0,
+    "hash": "0f5abc48ef55c9198ab971e58ae6827fd4260708ff144b14dfd318e241143820"
+  }
+}

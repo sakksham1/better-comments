@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: commenttool
+Version: 0.1.0
+Summary: Flag and rewrite AI-smelling / redundant comments in a repo, via diff review.
+Requires-Python: >=3.10
+Requires-Dist: tree-sitter>=0.23
+Requires-Dist: tree-sitter-language-pack>=1.12
+Requires-Dist: anthropic>=0.72
+Requires-Dist: click>=8.1
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
